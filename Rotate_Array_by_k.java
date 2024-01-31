@@ -3,6 +3,7 @@ package Array;
 import java.util.Scanner;
 
 public class Rotate_Array_by_k {
+    //Not solved..
     static int[] RotateArrayByK(int[] nums){
         int n = nums.length;
         int temp = nums[n-1];

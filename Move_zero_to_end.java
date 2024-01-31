@@ -11,17 +11,6 @@ public class Move_zero_to_end {
         int n = arr.length;
         int nonZeroIndex = 0;
         for (int i = 0; i < n; i++) {
-//            int temp= arr[0];
-//            if (arr[i] == 0){
-//                temp = arr[i];
-//                if (i != n-1){
-//                    arr[i] = arr[i+1];
-//                    arr[n-1] = temp;
-//                }
-//                else{
-//                    arr[i] = temp;
-//                }
-//            }
             if (arr[i] != 0){
                 int temp = arr[i];
                 arr[i] = arr[nonZeroIndex];
