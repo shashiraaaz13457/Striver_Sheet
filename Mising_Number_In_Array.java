@@ -6,7 +6,7 @@ import java.lang.reflect.Array;
 public class Mising_Number_In_Array {
     public static void main(String[] args) {
         int[] nums = {9,7,6,5,0,1,3,2,4};
-//        int[] nums = {3,0,1};
+//        int[] nums = {3,0,1}
         int result = missingNumber(nums);
 
         System.out.println(result);
